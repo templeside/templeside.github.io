@@ -2262,6 +2262,13 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
+				ul {
+					list-style-type: none;
+				}
+				ul li {
+					display: inline-block;
+				}
+			
 			}
 
 /* Wide */
@@ -2632,3 +2639,18 @@ input, select, textarea {
 				}
 
 	}
+	.image-container {
+		display: flex;
+		justify-content: space-around; /* Adjust to space the images */
+		align-items: center; /* Align items vertically */
+		flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
+		padding: 10px; /* Optional: Add padding around the container */
+	}
+	
+	.image-container img {
+		flex: 1 1 auto; /* Allow images to grow and shrink as needed */
+		margin: 5px; /* Optional: Add margin around each image */
+		max-width: 100px; /* Adjust max-width as needed */
+		height: auto; /* Maintain aspect ratio */
+	}
+	

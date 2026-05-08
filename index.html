@@ -1,254 +1,547 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Chanwoong Jhon Website</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanwoong Jhon | Infrastructure & Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">CJ.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<body class="is-preload">
-	<!-- Header -->
-	<div id="header">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Chanwoong Jhon</h1>
+                <h2 class="title">Hybrid Infrastructure, Network & Software Engineer</h2>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Commerce, Georgia</p>
+                <p class="description">
+                    Hybrid engineer working across network infrastructure, systems operations, and software development.
+                    Currently supporting production infrastructure for <strong>SK Battery America</strong> in Commerce, Georgia,
+                    with prior deployment experience at <strong>Ford BlueOval Battery Park</strong>.
+                </p>
+                <div class="hero-highlights">
+                    <div class="highlight-pill"><strong>99.99%</strong><span>uptime</span></div>
+                    <div class="highlight-pill"><strong>54</strong><span>Cisco APs deployed</span></div>
+                    <div class="highlight-pill"><strong>27,818 ft</strong><span>fiber + CAT6A</span></div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#experience" class="btn btn-primary">View Experience</a>
+                    <a href="#projects" class="btn btn-secondary">See Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/templeside" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chanwoong-jhon" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:cwjhon5654@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="blob"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
-		<div class="top">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Infrastructure Engineer with hybrid background spanning networking, systems, and software engineering.
+                        Currently building and operating production infrastructure for large-scale EV battery manufacturing
+                        at <strong>SK AX USA</strong>, managing network architecture, server operations, and cross-functional deployment.
+                    </p>
+                    <p>
+                        Proven track record of <strong>99.99% uptime</strong> with sub-50ms latency for critical production systems.
+                        Experienced in Cisco/Extreme switching, VLAN segmentation, Wi-Fi infrastructure (54+ APs), 
+                        and operational standardization across 27,818 ft of fiber + CAT6A cabling.
+                    </p>
+                    <p>
+                        Prior software engineering experience at <strong>Cogent Infotech</strong> (Spring, microservices, CI/CD)
+                        and <strong>3D Access Industries</strong> (React, NestJS, ERP systems).
+                        Strong execution skills with project ownership across infrastructure, automation, and software layers.
+                        <strong>Aspiring to join Big Tech</strong> and work on large-scale distributed systems at the intersection
+                        of infra + software + AI.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i class="fas fa-code"></i> Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Bash</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">C++</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3><i class="fas fa-server"></i> Infrastructure</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Cisco</span>
+                                <span class="skill-tag">Extreme Networks</span>
+                                <span class="skill-tag">VLAN/L2/L3</span>
+                                <span class="skill-tag">Wi-Fi/WLC</span>
+                                <span class="skill-tag">RADIUS</span>
+                                <span class="skill-tag">FortiGate</span>
+                                <span class="skill-tag">VMware vSphere</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Spring Boot</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">NestJS</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">Hibernate</span>
+                                <span class="skill-tag">JPA</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3><i class="fas fa-tools"></i> Tools & Cloud</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">Jenkins</span>
+                                <span class="skill-tag">CI/CD</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Jira</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3><i class="fas fa-database"></i> Systems & DB</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">RHEL</span>
+                                <span class="skill-tag">Windows Server</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">SQLite</span>
+                                <span class="skill-tag">AD/DNS</span>
+                                <span class="skill-tag">Backup/Restore</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3><i class="fas fa-sitemap"></i> Architecture</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Microservices</span>
+                                <span class="skill-tag">RESTful APIs</span>
+                                <span class="skill-tag">Distributed Systems</span>
+                                <span class="skill-tag">Agile/Scrum</span>
+                                <span class="skill-tag">TDD</span>
+                                <span class="skill-tag">MES</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/Chanwoong-Jhon.jpg" alt="Avatar" /></span>
-				<h1 id="title">Chanwoong Jhon</h1>
-				<p>Software Engineer</p>
-			</div>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Infrastructure Network Engineer</h3>
+                            <span class="company">SK AX USA</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Commerce, GA (SKBA Battery Factory)</span>
+                        </div>
+                        <span class="duration">Oct 2025 - Present</span>
+                        <ul class="responsibilities">
+                            <li>Supporting ongoing infrastructure operations for <strong>2.4M sq-ft EV battery facility</strong> at SK Battery America ($1.67B investment)</li>
+                            <li>Working across <strong>L2/L3/L4 operations</strong>, including switch configuration, packet analysis, and firewall policy review</li>
+                            <li>Managing <strong>AD/DNS administration</strong> and validating backup/restore tasks under change windows</li>
+                            <li>Introduced Jira Kanban board and blameless post-mortem template, reducing weekly ops time by <strong>30%</strong></li>
+                            <li>Built shared Excel-based project tracker with PARA-style documentation, consolidating infrastructure status across teams</li>
+                            <li>Standardized visibility across IPs, locations, subnet/mask, labeling, cabling, SSH access, and configuration references</li>
+                            <li>Participated in on-call support and escalation handling for critical production infrastructure issues</li>
+                        </ul>
+                    </div>
+                </div>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-					<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="#experiences" id="about-link"><span class="icon solid fa-user">Experiences</span></a>
-					</li>
-					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
-					</li>
-					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Infrastructure Network Engineer</h3>
+                            <span class="company">SK AX USA</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Glendale, KY (Ford BlueOval Battery Park)</span>
+                        </div>
+                        <span class="duration">Nov 2024 - Oct 2025</span>
+                        <ul class="responsibilities">
+                            <li>Built and launched factory-wide real-time production-alert (Andon) network for <strong>7M+ sq-ft EV battery campus</strong> ($5.8B investment)</li>
+                            <li>Sustained <strong>99.99% uptime</strong> with sub-50ms alarm latency for critical production systems</li>
+                            <li>Deployed <strong>54 Cisco APs</strong> and segmented <strong>121 production PCs</strong> on dedicated VLANs</li>
+                            <li>Oversaw <strong>27,818 ft (~8.5 km)</strong> of fiber + CAT6A cabling, passed OTDR/Fluke certification on first run</li>
+                            <li>Configured Cisco servers with RBAC, AAA, and SSH hardening for production readiness</li>
+                            <li>Performed server build/patch on RHEL and Windows Server, supported VMware vSphere provisioning</li>
+                            <li>Contributed to VDI virtualization proposal for external remote workers across servers, storage, switching, and Citrix</li>
+                        </ul>
+                    </div>
+                </div>
 
-		<div class="bottom">
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/chanwoong-jhon/" class="icon brands fa-linkedin"><span
-							class="label">Linkedin</span></a></li>
-				<li><a href="https://github.com/templeside" class="icon brands fa-github"><span
-							class="label">Github</span></a></li>
-				<li><a href="mailto: cwjhon5654@gmail.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-			</ul>
-		</div>
-	</div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">3D Access Industries</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Fremont, CA</span>
+                        </div>
+                        <span class="duration">Aug 2024 - Nov 2024</span>
+                        <ul class="responsibilities">
+                            <li>Developed cloud-based web applications using <strong>React</strong> and <strong>NestJS</strong></li>
+                            <li>Designed and implemented custom ERP systems for business operations</li>
+                            <li>Built REST APIs and PostgreSQL queries, improving data retrieval speed by <strong>20%</strong></li>
+                            <li>Managed IT accounts, websites, and web services</li>
+                            <li>Conducted code reviews and collaborated through Agile/Jira workflows</li>
+                        </ul>
+                    </div>
+                </div>
 
-	<!-- Main -->
-	<div id="main">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Cogent Infotech</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        </div>
+                        <span class="duration">Apr 2023 - May 2024</span>
+                        <ul class="responsibilities">
+                            <li>Built banking web application workflows using <strong>Spring Core MVC</strong>, TDD, and design patterns</li>
+                            <li>Reduced manual intervention and improved claims processing efficiency by <strong>25%</strong></li>
+                            <li>Integrated REST APIs, reducing data processing time by <strong>30%</strong></li>
+                            <li>Engineered microservices architecture with Spring Framework</li>
+                            <li>Improved delivery speed through CI/CD pipeline using <strong>AWS, Kubernetes, Docker, Jenkins</strong></li>
+                        </ul>
+                    </div>
+                </div>
 
-		<!-- Intro -->
-		<section id="top" class="one dark cover">
-			<div class="container">
-				<header>
-					<h2 class="alt">Full Stack Developer</h2>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Goqba Technology</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Seoul, South Korea</span>
+                        </div>
+                        <span class="duration">Dec 2020 - Apr 2021</span>
+                        <ul class="responsibilities">
+                            <li>Developed pupil movement tracking program for early dementia detection</li>
+                            <li>Combined machine learning with <strong>OpenCV, Python, C++</strong> and academic research</li>
+                            <li>Analyzed research papers around disease prediction and adapted to practical company context</li>
+                            <li>Collaborated with cross-functional team on Windows application design using Git, Jira, MySQL</li>
+                        </ul>
+                    </div>
+                </div>
 
-					<p>Hi! I'm <strong>Chanwoong Jhon</strong>, a passiontae Full stack developer based in Austin,Texas.
-					</p>
-				</header>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Student Developer</h3>
+                            <span class="company">UW-Madison Pathology & Lab Medicine</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Madison, WI</span>
+                        </div>
+                        <span class="duration">Mar 2020 - Aug 2020</span>
+                        <ul class="responsibilities">
+                            <li>Automated analysis of cell migration video data using <strong>Java</strong></li>
+                            <li>Reduced time required per video by <strong>80%</strong>, eliminating manual parsing work</li>
+                            <li>Worked with non-developer stakeholders to clarify requirements and deliver usable result</li>
+                            <li>Performed testing/debugging and delivered error-free end product with positive feedback</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			</div>
-		</section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-intro">A mix of production infrastructure work, internal operations tooling, and software projects across web, AI, and automation.</p>
+            
+            <h3 class="projects-subtitle">Professional Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-industry project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Factory Andon Network Infrastructure</h3>
+                    <p class="project-description">
+                        Real-time production-alert network for 7M sq-ft EV battery manufacturing facility.
+                        Sustained 99.99% uptime with sub-50ms latency, deployed 54 Cisco APs and segmented
+                        121 production PCs on dedicated VLANs across 27,818 ft of cabling.
+                    </p>
+                    <div class="project-tech">
+                        <span>Cisco</span>
+                        <span>VLAN</span>
+                        <span>Wi-Fi</span>
+                        <span>Production</span>
+                    </div>
+                </div>
 
-		<!-- About Me -->
-		<section id="about" class="two">
-			<div class="container">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-clipboard-list project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Infrastructure Operations Tracker</h3>
+                    <p class="project-description">
+                        Built shared Excel-based project tracker with PARA-style documentation structure.
+                        Consolidated project status, IPs, locations, subnet/mask, labeling, cabling, SSH access,
+                        and configuration references. Reduced weekly ops time by 30% with Jira Kanban and post-mortem templates.
+                    </p>
+                    <div class="project-tech">
+                        <span>Jira</span>
+                        <span>Documentation</span>
+                        <span>Operations</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
 
-				<header>
-					<h2>About Me</h2>
-				</header>
+            <h3 class="projects-subtitle">Personal & Academic Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-gamepad project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/ColeGransee/BopToTheTop" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Amazon-Shopbop Web Game</h3>
+                    <p class="project-description">
+                        Real-time AWS web game using React and Django, integrating Amazon's product API.
+                        Collaborated with a team of 6 to design and implement multiplayer functionality.
+                    </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Django</span>
+                        <span>AWS</span>
+                        <span>Real-time</span>
+                    </div>
+                </div>
 
-				<p>
-				<div>
-					<strong>Summary</strong>
-					<div>Full Stack Developer with 2 years of experience in software development, testing, and
-						deployment. Proficient in Java, Python, and JavaScript, with a strong foundation in algorithms,
-						data structures, and object-oriented programming. Skilled in developing scalable,
-						high-performance web applications using Spring Boot, React, and Node.js. Experienced in
-						implementing RESTful APIs, microservices architecture, and CI/CD pipelines to streamline
-						software development processes. Adept at collaborating with cross-functional teams to deliver
-						high-quality software solutions that meet client requirements.</div>
-				</div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-brain project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/templeside/CS639-Visual-Relationship-Detection" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Visual Relationship Detection with AI</h3>
+                    <p class="project-description">
+                        Implemented an AI model for detecting visual relationships between objects in images,
+                        enhancing computer vision capabilities for image retrieval and video description.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Deep Learning</span>
+                        <span>Computer Vision</span>
+                        <span>AI/ML</span>
+                    </div>
+                </div>
 
-				</p>
-				<p>
-				<div>
-					<strong>Technical Skills</strong>
-					<div>Programming Languages: Java, Python, JavaScript, SQL, HTML, CSS</div>
-					<div>Frameworks: Spring Boot, React, Node.js, Express.js, Hibernate, JPA</div>
-					<div>Tools: Git, Jenkins, Docker, Kubernetes, AWS, Postman, Jira, Confluence</div>
-					<div>Methodologies: Agile/Scrum, TDD, CI/CD, RESTful APIs, Microservices</div>
-				</div>
-				</p>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-spider project-icon"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Web Crawler for Sales Analysis</h3>
+                    <p class="project-description">
+                        Developed a web crawler using Python and BeautifulSoup4 to scrape sales data for
+                        businesses managing online delivery cafeterias, facilitating strategic decision-making.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>BeautifulSoup</span>
+                        <span>Data Analysis</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
 
-				<p>
-				<div>
-					<strong>Education</strong>
-					<div>University of Wisconsin-Madison | Madison, WI</div>
-					<div>Bachelor of Science in Computer Science | December 2022</div>
-				</div>
-				</p>
-			</div>
-		</section>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-home project-icon"></i>
+                        <div class="project-links">
+                            <a href="https://www.home-assistant.io/installation/raspberrypi/" target="_blank" aria-label="Home Assistant">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">IoT Home Automation System</h3>
+                    <p class="project-description">
+                        Constructed IoT operating systems using HomeAssistant and Zigbee protocol for device
+                        connection, automating lights and temperature based on user behavior patterns.
+                    </p>
+                    <div class="project-tech">
+                        <span>HomeAssistant</span>
+                        <span>Zigbee</span>
+                        <span>IoT</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
 
-		<!-- Experiences -->
-		<section id="experiences" class="three">
-			<div class="container">
-				<h2>Experiences</h2>
-				<p>
-				<div>Cogent Infotech | Pittsburgh, PA</div>
-				<div>Software Engineer | Apr 2023 - Present</div>
-				</p>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-database project-icon"></i>
+                    </div>
+                    <h3 class="project-title">DBMS Design & Optimization</h3>
+                    <p class="project-description">
+                        Improved search time complexity from O(N) to O(logN) by replacing linear search with binary search.
+                        Designed relational schema for large-volume eBay JSON data using Python and SQLite.
+                    </p>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>SQLite</span>
+                        <span>Algorithms</span>
+                    </div>
+                </div>
 
-				<p>
-				<div>Goqba Technology | Seoul, South Korea</div>
-				<div>Software Engineer | Dec 2020 - Apr 2021</div>
-				</p>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-server project-icon"></i>
+                        <div class="project-links">
+                            <a href="#" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">NAS with Raspberry Pi</h3>
+                    <p class="project-description">
+                        Developed a Network Attached Storage system using Raspberry Pi and Samba,
+                        providing a cost-effective solution for personal data storage and sharing.
+                    </p>
+                    <div class="project-tech">
+                        <span>Raspberry Pi</span>
+                        <span>Samba</span>
+                        <span>Linux</span>
+                        <span>Network</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<p>
-				<div>UW-Madison Department of Pathology and Laboratory Medicine | Madison, WI</div>
-				<div>Software Developer | Jun 2020 - Dec 2020</div>
-				</p>
-			</div>
-		</section>
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <div>
+                        <h3>University of Wisconsin-Madison</h3>
+                        <p class="degree">Bachelor of Science in Computer Science</p>
+                        <p class="honors"><i class="fas fa-award"></i> Fall 2021 Dean's List</p>
+                    </div>
+                    <span class="graduation">December 2022</span>
+                </div>
+                <div class="education-details">
+                    <p><i class="fas fa-book"></i> <strong>Relevant Coursework:</strong> Object Oriented Programming, Data Structures & Algorithms, Machine Organization, Database Management Systems, Machine Learning, Artificial Intelligence, Computer Vision</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Portfolio -->
-		<section id="portfolio" class="four">
-			<div id="wrapper" class="divided">
-				<div class="container">
-					<h2>Portfolio</h2>
-					<p>I'm a bit of a digital product creater.<br>
-						Over the years I've developed web and mobile apps. <br>
-						Eventually, I decided that it would be a fun challenge to design and build my own.<br>
-						Here are some of my projects:
-					</p>
-					<div class="row">
-						<div class="col-4 col-12-mobile">
-							<article class="item">
-								<header>
-									<a href="https://github.com/ColeGransee/BopToTheTop" class="image fit"><img src="images/boptothetop.png" alt="Project 4" /></a>
-									<h3>Amazon-Shopbop Web Game</h3>
-									<p>Collaborated with a team of 6 to design and implement a real-time AWS web game using React and Django, integrating Amazon's product API.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">
+                Open to infrastructure, SRE, platform, and systems-oriented software opportunities.
+                If you're building reliable systems at scale, I'd be glad to connect.
+            </p>
+            <div class="contact-methods">
+                <a href="mailto:cwjhon5654@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>cwjhon5654@gmail.com</span>
+                </a>
+                <a href="tel:+12016604665" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <span>(201) 660-4665</span>
+                </a>
+                <a href="https://github.com/templeside" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/templeside</span>
+                </a>
+                <a href="https://www.linkedin.com/in/chanwoong-jhon" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn Profile</span>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Commerce, Georgia</span>
+                </div>
+            </div>
+            <a href="mailto:cwjhon5654@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+        </div>
+    </section>
 
-									<div class="image-container">
-										<img src="images/react.svg" alt="React">
-										<img src="images/python.svg" alt="Python">
-										<img src="images/django-icon.svg" alt="Django">
-										<img src="images/aws.svg" alt="AWS">
-									</div>
-									
-								</header>
-			
-							</article>
-							<article class="item">
-								<a href="https://github.com/templeside/CS639-Visual-Relationship-Detection" class="image fit"><img src="https://raw.githubusercontent.com/templeside/CS639-Visual-Relationship-Detection/main/bicycle.png" alt="Project 4" /></a>
-								<header>
-									<h3>Visual Relationship Detection with AI</h3>
-									<p>Implemented an AI model for detecting visual relationships between objects in images, enhancing computer vision capabilities for applications like image retrieval and video description generation.</p>
-									<div class="image-container">
-										<img src="images/python.svg" alt="Python">
-										<img src="images/matlab-logo.png" alt="Matlab">
-									</div>
-								</header>
-			
-							</article>
-						</div>
-						<div class="col-4 col-12-mobile">
-							<article class="item">
-								<header>
-									<h3>Web Crawler for Sales Analysis</h3>
-									<p>Developed a web crawler using Python and BeautifulSoup4 to scrape sales data for businesses managing online delivery cafeterias, facilitating analysis and strategic decision-making.</p>
-									<div class="image-container">
-										<img src="images/python.svg" alt="Python">
-										<img src="images/chrome.svg" alt="Chrome">
-									</div>
-								</header>
-							</article>
-							<article class="item">
-								<a href="https://www.home-assistant.io/installation/raspberrypi/" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Home_Assistant_Logo.svg" alt="Project 3" /></a>
-								<header>
-									<h3>IoT Operating Systems with HomeAssistant and Zigbee</h3>
-									<p>Constructed IoT operating systems using HomeAssistant and Zigbee protocol for IoT devices connection, automating lights and temperature based on user behavior.</p>
-									<div class="image-container">
-										<img src="images/linux-tux.svg" alt="Linux">
-										<img src="images/raspberry-pi.svg" alt="Django">
-										<img src="images/yaml.svg" alt="YAML">
-									</div>
-								</header>
-							</article>			
-						</div>
-						<div class="col-4 col-12-mobile">
-							<article class="item">
-								<header>
-									<h3>NAS Project with Raspberry Pi and Samba</h3>
-									<p>Developed a Network Attached Storage (NAS) system using Raspberry Pi and Samba, providing a cost-effective solution for personal data storage and sharing.</p>
-										<div class="image-container">
-											<img src="images/linux-tux.svg" alt="Linux">
-											<img src="images/raspberry-pi.svg" alt="Raspberry">
-										</div>
-								</header>
-							</article>
-						</div>
-					</div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Chanwoong Jhon. Built with passion for Big Tech dreams.</p>
+            <div class="footer-links">
+                <a href="https://github.com/templeside" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chanwoong-jhon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
 
-				</div>
-
-		</section>
-
-
-
-		<!-- Contact -->
-		<section id="contact" class="four">
-			<div class="container">
-				<header>
-					<h2>Contact</h2>
-				</header>
-
-				<p>Feel free to get in touch. You can reach me via email:</p>
-
-				<div><strong>Email:</strong> <a href="mailto:cwjhon5654@gmail.com">cwjhon5654@gmail.com</a></div>	
-			</div>
-		</section>
-	</div>
-
-	<!-- Footer -->
-	<footer>
-		<div id="footer">
-			<!-- information -->
-			<ul class="copyright">
-				<li>Location: Austin, Texas</li>
-				<li>Email: cwjhon5654@gmail.com</li>>
-			</ul>
-			<!-- information, Copyright -->
-			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li>
-			</ul>
-			<a href="#top" class="button scrolly">to the top</a>
-		</div>
-	</footer>
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

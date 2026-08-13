@@ -1,19 +1,19 @@
 # Chanwoong Jhon - Portfolio Website
 
-🚀 A modern, responsive portfolio website designed to showcase skills and projects for Big Tech opportunities.
+Chanwoong Jhon's public career portfolio, focused on infrastructure and platform engineering, automation, secure compute, and experimental distributed AI serving.
 
 ## 🎨 Features
 
 - **Modern Dark Theme** - Professional gradient-based design
 - **Fully Responsive** - Works on all devices
 - **Smooth Animations** - Scroll-triggered animations
-- **Big Tech Optimized** - Emphasizes scale, architecture, and impact
+- **Evidence Oriented** - Separates professional experience from personal experiments and emphasizes verifiable impact
 - **GitHub Pages Ready** - Deploy with one command
 
 ## 📁 File Structure
 
 ```
-portfolio-temple/
+templeside.github.io/
 ├── index.html      # Main HTML file
 ├── styles.css      # All styles (16KB)
 ├── script.js       # Interactive features
@@ -35,21 +35,7 @@ python3 -m http.server 8000
 
 ### Deploy to GitHub Pages
 
-```bash
-# 1. Create a new repository on GitHub
-# 2. Initialize git and push
-cd portfolio-temple
-git init
-git add .
-git commit -m "Initial portfolio commit"
-git branch -M main
-git remote add origin https://github.com/templeside/portfolio.git
-git push -u origin main
-
-# 3. Enable GitHub Pages
-# Go to Settings > Pages > Source: main branch > Save
-# Your site will be live at: https://templeside.github.io/portfolio/
-```
+This repository is the user-site repository. Pushing the verified `master` branch publishes `https://templeside.github.io/` through GitHub Pages.
 
 ## ✏️ Customization
 
@@ -97,29 +83,12 @@ Then add CSS:
 }
 ```
 
-## 🎯 Big Tech Optimization Tips
+## Content boundary
 
-### What to Emphasize
-
-1. **Scale** - Mention user counts, traffic, data volumes
-2. **Impact** - Quantify results (e.g., "improved performance by 40%")
-3. **Complexity** - Highlight distributed systems, microservices
-4. **Leadership** - Team size, mentorship, cross-functional work
-
-### Example Project Descriptions
-
-❌ Before: "Built a web crawler using Python"
-✅ After: "Developed distributed web crawler processing 10K+ pages/day for sales analytics"
-
-❌ Before: "Worked on AWS web game"
-✅ After: "Designed real-time multiplayer architecture on AWS handling 500+ concurrent users"
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+ (when deployed)
-- **First Contentful Paint**: < 1s
-- **Time to Interactive**: < 2s
-- **Bundle Size**: ~20KB (no frameworks!)
+- Professional work and personal experiments are labeled separately.
+- Only externally shareable, verified facts belong on this public site.
+- Client-confidential diagrams, configuration values, source documents, private finance, immigration details, and internal company material must never be published here.
+- Experimental GPU serving remains a personal project until it has a sanitized public repository with reproducible deployment, benchmark, observability, and recovery evidence.
 
 ## 🛠️ Tech Stack
 
@@ -135,7 +104,8 @@ Then add CSS:
 - [ ] Update LinkedIn URL
 - [ ] Add LeetCode/Codeforces links if applicable
 - [ ] Include blog/technical writing section
-- [ ] Add analytics (Google Analytics or Plausible)
+- [ ] Publish a sanitized, reproducible AI-serving lab repository
+- [ ] Add an architecture diagram and benchmark methodology after privacy review
 - [ ] Create dark/light mode toggle
 - [ ] Add resume download button
 
@@ -145,4 +115,4 @@ Free to use and modify for personal and commercial purposes.
 
 ---
 
-**Built with 💜 for Big Tech dreams**
+**Public evidence for infrastructure and platform engineering work.**

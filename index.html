@@ -410,9 +410,10 @@
                     </div>
                     <h3 class="project-title">Experimental GPU-Accelerated LLM Serving</h3>
                     <p class="project-description">
-                        Deployed and optimized distributed LLM serving on multi-node NVIDIA DGX Spark hardware using vLLM with Tensor Parallelism (TP=2), FP4/FP8 quantization, and RDMA networking. Measured throughput and latency across context lengths up to 128K tokens, building hands-on experience in GPU memory management, inference topology design, and serving pipeline performance tuning.
+                        Operate a four-node NVIDIA DGX Spark personal lab serving DeepSeek-V4.1-Flash with SGLang and Tensor Parallelism (TP=4) over RDMA/RoCE. Recovered distributed inference after relocation by reconciling fabric routing and worker ranks, persisting network profiles, and verifying NCCL initialization and API responses. Earlier vLLM TP=2 experiments covered FP4/FP8 quantization and throughput/latency across contexts up to 128K tokens. This recovery is lab validation, not company production deployment or a new performance or cold-reboot benchmark.
                     </p>
                     <div class="project-tech">
+                        <span>SGLang</span>
                         <span>vLLM</span>
                         <span>GPU Serving</span>
                         <span>RDMA</span>

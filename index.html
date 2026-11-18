@@ -87,14 +87,14 @@
                         measurable automation, and clear operational handoffs.
                     </p>
                     <p>
-                        Since May 2026, working with the <strong>VDI team</strong> at <strong>SK AX USA</strong>, supporting enterprise VDI build planning
-                        and implementation preparation across SKBA Commerce and Hyundai JV while bridging virtual desktop services, server operations,
-                        identity, secure remote access, and cross-functional infrastructure handoff.
+                        Since May 2026, I have worked on the <strong>VDI team</strong> at <strong>SK AX USA</strong>, helping operate
+                        <strong>2,000+ virtual desktops</strong> across three EV battery manufacturing sites and serving as a lead engineer supporting the
+                        project manager on a new <strong>100-desktop VDI environment</strong> for a regulated financial institution.
                     </p>
                     <p>
-                        Before the VDI transition, worked as an <strong>Infrastructure Network Engineer</strong> from Oct 2025 to Apr 2026 at SKBA Commerce,
-                        and earlier delivered the Ford BlueOval Andon network with <strong>99.99% uptime</strong> and sub-50ms latency. I keep those production infrastructure
-                        metrics in the experience section while presenting this site as a broader portfolio of infrastructure and software work.
+                        Before that, as an <strong>Infrastructure Network Engineer</strong>, I helped launch an isolated production-alert network for an EV battery plant
+                        and built a Python SSH tool that cut a ~3-hour audit of ~460 switches to ~20 minutes, later upgraded into a monitoring system.
+                        My goal is to design infrastructure and build the software that runs it, moving toward AI infrastructure and ML platform engineering.
                     </p>
                     <p>
                         Prior software engineering experience at <strong>Cogent Infotech</strong> (Spring, microservices, CI/CD)
@@ -198,17 +198,16 @@
                         <div class="timeline-header">
                             <h3>VDI &amp; Infrastructure Engineer</h3>
                             <span class="company">SK AX USA</span>
-                            <span class="location"><i class="fas fa-map-marker-alt"></i> Alpharetta, GA / Commerce, GA / Hyundai JV</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Alpharetta, GA</span>
                         </div>
                         <span class="duration">May 2026 - Present</span>
                         <ul class="responsibilities">
-                            <li>Supporting <strong>greenfield VDI build and endpoint-modernization planning</strong>, translating requirements into executable infrastructure architecture and staged delivery gates</li>
-                            <li>Documented secure Horizon access flow: <strong>Firewall/DMZ → VPX L4 → UAG → Horizon Connection Server → VDI VM → ESXi/vSphere</strong></li>
-                            <li>Building repeatable implementation artifacts including architecture diagrams, IP/VLAN/VIP matrices, server role matrices, installation runbooks, operations runbooks, and as-built handoff documentation</li>
-                            <li>Structured pre-deployment readiness across rack, power, port, cabling, identity, licensing, logistics, and evidence requirements, keeping unverified dependencies outside the completion path</li>
+                            <li>Help operate <strong>2,000+ Citrix virtual desktops</strong> across three EV battery manufacturing sites as part of the VDI team</li>
+                            <li>Lead engineer supporting the PM on a new <strong>100-desktop VDI build</strong> for a regulated financial institution (contract signed May 2026): review the design with vendor engineers and draw and revise the architecture diagrams (network segmentation, firewall rules, remote-access path)</li>
+                            <li>Documented secure Horizon access flow: <strong>Firewall/DMZ → VPX L4 → UAG → Horizon Connection Server → VDI VM → ESXi/vSphere</strong>; wrote integration-test plans and installation runbooks; installed racks and cabling on site</li>
+                            <li>Diagnosed an external-only access failure layer by layer to a <strong>web-firewall rule</strong> blocking legitimate traffic and turned it into a layered troubleshooting checklist for the team</li>
+                            <li>Built internal tools with AI coding agents where none existed: a <strong>VDI incident-ticketing site</strong> and an <strong>electronic approval workflow</strong> (both launching December 2026)</li>
                             <li>Defined staged Windows 11 VDI transition gates covering image readiness, compatibility and capacity testing, UAT, phased rollout, rollback, and shared-desktop security review</li>
-                            <li>Shadowing specialist engineers across <strong>server, storage, VDI, security, backup, and infrastructure handoff</strong> domains to prepare for future VDI builds and operations</li>
-                            <li>Bridging <strong>VDI/EUC, server operations, AD/DNS, endpoint access, certificates, and secure remote-access workflows</strong> as part of broader infrastructure service ownership</li>
                         </ul>
                     </div>
                 </div>
@@ -219,14 +218,15 @@
                         <div class="timeline-header">
                             <h3>Infrastructure Network Engineer</h3>
                             <span class="company">SK AX USA</span>
-                            <span class="location"><i class="fas fa-map-marker-alt"></i> Commerce, GA (SKBA Battery Factory)</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Commerce, GA (EV battery campus)</span>
                         </div>
                         <span class="duration">Oct 2025 - Apr 2026</span>
                         <ul class="responsibilities">
-                            <li>Supported ongoing infrastructure operations for <strong>2.4M sq-ft EV battery facility</strong> at SK Battery America ($1.67B investment)</li>
+                            <li>Supported infrastructure operations for an EV battery campus with <strong>~460 Layer 2 switches and 250 access points</strong></li>
                             <li>Worked across <strong>L2/L3/L4 operations</strong>, including switch configuration, packet analysis, and firewall policy review</li>
                             <li>Built shared Excel-based project tracker with PARA-style documentation, consolidating infrastructure status across teams</li>
-                            <li>Engineered a standalone Python SSH audit framework for <strong>464+ switches</strong>, reducing manual verification time from <strong>3 hours to 20 minutes</strong></li>
+                            <li>Engineered a multithreaded Python SSH audit tool for <strong>~460 switches</strong>, reducing manual verification from <strong>~3 hours to ~20 minutes</strong>, with access that cannot change device settings, no added device load, and dashboard and email alerts for unresponsive devices</li>
+                            <li>Later upgraded the tool into a <strong>monitoring system</strong> now installed in the company environment (~50 servers, switches, and VMware hosts)</li>
                             <li>Supported documentation accuracy, connectivity validation, and switch/port mapping across a large industrial site environment</li>
                         </ul>
                     </div>
@@ -238,14 +238,12 @@
                         <div class="timeline-header">
                             <h3>Infrastructure Network Engineer</h3>
                             <span class="company">SK AX USA</span>
-                            <span class="location"><i class="fas fa-map-marker-alt"></i> Glendale, KY (Ford BlueOval Battery Park)</span>
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Glendale, KY (EV battery campus)</span>
                         </div>
                         <span class="duration">Nov 2024 - Oct 2025</span>
                         <ul class="responsibilities">
-                            <li>Built and launched factory-wide real-time production-alert (Andon) network for <strong>7M+ sq-ft EV battery campus</strong> ($5.8B investment)</li>
-                            <li>Sustained <strong>99.99% uptime</strong> with sub-50ms alarm latency for critical production systems</li>
-                            <li>Deployed <strong>54 Cisco APs</strong> and segmented <strong>121 production PCs</strong> on dedicated VLANs</li>
-                            <li>Oversaw <strong>27,818 ft (~8.5 km)</strong> of fiber + CAT6A cabling, passed OTDR/Fluke certification on first run</li>
+                            <li>Helped build and launch an <strong>isolated real-time production-alert (Andon) network</strong>: redundant core switches and firewalls, <strong>22 access switches, 54 access points, and 100+ shop-floor PCs and displays</strong></li>
+                            <li>Ran failover tests before handover (uplink pulls, core reboots) to confirm alerts kept flowing; helped write the completion report and operating plan</li>
                             <li>Configured Cisco servers with RBAC, AAA, and SSH hardening for production readiness</li>
                             <li>Performed server build/patch on RHEL and Windows Server, supported VMware vSphere provisioning</li>
                         </ul>
@@ -264,7 +262,7 @@
                         <ul class="responsibilities">
                             <li>Developed cloud-based web applications using <strong>React</strong> and <strong>NestJS</strong></li>
                             <li>Designed and implemented custom ERP systems for business operations</li>
-                            <li>Built REST APIs and PostgreSQL queries, improving data retrieval speed by <strong>20%</strong></li>
+                            <li>Built REST APIs and PostgreSQL queries, improving data retrieval performance for high-traffic queries</li>
                             <li>Managed IT accounts, websites, and web services</li>
                             <li>Conducted code reviews and collaborated through Agile/Jira workflows</li>
                         </ul>
@@ -275,15 +273,14 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3>Software Engineer</h3>
+                            <h3>Software Engineering Practicum</h3>
                             <span class="company">Cogent Infotech</span>
                             <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
                         </div>
                         <span class="duration">Apr 2023 - May 2024</span>
                         <ul class="responsibilities">
                             <li>Built banking web application workflows using <strong>Spring Core MVC</strong>, TDD, and design patterns</li>
-                            <li>Reduced manual intervention and improved claims processing efficiency by <strong>25%</strong></li>
-                            <li>Integrated REST APIs, reducing data processing time by <strong>30%</strong></li>
+                                                        <li>Integrated REST APIs and database tooling with JUnit-tested workflows</li>
                             <li>Engineered microservices architecture with Spring Framework</li>
                             <li>Improved delivery speed through CI/CD pipeline using <strong>AWS, Kubernetes, Docker, Jenkins</strong></li>
                         </ul>
@@ -300,11 +297,10 @@
                         </div>
                         <span class="duration">Dec 2020 - Apr 2021</span>
                         <ul class="responsibilities">
-                            <li>Developed pupil movement tracking program for early dementia detection</li>
-                            <li>Combined machine learning with <strong>OpenCV, Python, C++</strong> and academic research</li>
+                            <li>Developed a pupil-movement tracking program for early dementia screening with head-mounted eye-tracking glasses</li>
+                            <li>Built the test screen whose moving targets a person's eyes followed, using <strong>OpenCV and Python</strong> with an open-source eye-tracking platform</li>
                             <li>Analyzed research papers around disease prediction and adapted to practical company context</li>
-                            <li>Collaborated with cross-functional team on Windows application design using Git, Jira, MySQL</li>
-                        </ul>
+                                                    </ul>
                     </div>
                 </div>
 
@@ -319,7 +315,7 @@
                         <span class="duration">Mar 2020 - Aug 2020</span>
                         <ul class="responsibilities">
                             <li>Automated analysis of cell migration video data using <strong>Java</strong></li>
-                            <li>Reduced time required per video by <strong>80%</strong>, eliminating manual parsing work</li>
+                            <li>Cut manual analysis time per video by replacing hand parsing with an automated tool</li>
                             <li>Worked with non-developer stakeholders to clarify requirements and deliver usable result</li>
                             <li>Performed testing/debugging and delivered error-free end product with positive feedback</li>
                         </ul>
@@ -343,9 +339,9 @@
                     </div>
                     <h3 class="project-title">Factory Andon Network Infrastructure</h3>
                     <p class="project-description">
-                        Real-time production-alert network for 7M sq-ft EV battery manufacturing facility.
-                        Sustained 99.99% uptime with sub-50ms latency, deployed 54 Cisco APs and segmented
-                        121 production PCs on dedicated VLANs across 27,818 ft of cabling.
+                        Isolated real-time production-alert network for an EV battery plant: redundant core switches and firewalls,
+                        22 access switches, 54 Cisco access points, and 100+ shop-floor PCs and displays on dedicated VLANs,
+                        validated with failover tests before handover.
                     </p>
                     <div class="project-tech">
                         <span>Cisco</span>
@@ -361,8 +357,7 @@
                     </div>
                     <h3 class="project-title">Enterprise VDI / Secure Access Build Planning</h3>
                     <p class="project-description">
-                        Supporting Horizon-based VDI build planning across servers, storage, switching, firewall/DMZ, VPX L4 load balancing, UAG, vCenter/ESXi, identity, backup, monitoring, and operations handoff.
-                        Framed as enterprise platform delivery rather than isolated desktop virtualization.
+                        A new 100-desktop Horizon-based VDI environment for a regulated financial institution. As lead engineer supporting the PM, I review the design with vendor engineers and draw and revise the architecture diagrams across servers, storage, switching, firewall/DMZ, VPX L4 load balancing, UAG, vCenter/ESXi, identity, backup, and operations handoff.
                     </p>
                     <div class="project-tech">
                         <span>Omnissa Horizon</span>
@@ -394,7 +389,7 @@
                     </div>
                     <h3 class="project-title">Infrastructure Automation & Audit Tooling</h3>
                     <p class="project-description">
-                        Engineered standalone Python automation for multi-threaded network connectivity audits across 464+ switches, reducing manual verification from 3 hours to 20 minutes and creating a stronger bridge from operations to infrastructure software.
+                        Engineered multithreaded Python SSH automation for connectivity audits across ~460 switches, reducing manual verification from ~3 hours to ~20 minutes, with read-only-style access, no added device load, and dashboard/email alerts. Later upgraded into a monitoring system now installed in the company environment, watching ~50 servers, switches, and VMware hosts.
                     </p>
                     <div class="project-tech">
                         <span>Python</span>
@@ -410,7 +405,7 @@
                     </div>
                     <h3 class="project-title">Experimental GPU-Accelerated LLM Serving</h3>
                     <p class="project-description">
-                        Operate a four-node NVIDIA DGX Spark personal lab serving DeepSeek-V4.1-Flash with SGLang and Tensor Parallelism (TP=4) over RDMA/RoCE. Recovered distributed inference after relocation by reconciling fabric routing and worker ranks, persisting network profiles, and verifying NCCL initialization and API responses. Earlier vLLM TP=2 experiments covered FP4/FP8 quantization and throughput/latency across contexts up to 128K tokens. This recovery is lab validation, not company production deployment or a new performance or cold-reboot benchmark.
+                        Operate a four-node NVIDIA DGX Spark personal lab serving DeepSeek-V4.1-Flash with SGLang and Tensor Parallelism (TP=4) over RDMA/RoCE. Recovered distributed inference after relocation by reconciling fabric routing and worker ranks, persisting network profiles, and verifying NCCL initialization and API responses. Earlier vLLM TP=2 experiments covered FP4/FP8 quantization and throughput/latency across contexts up to 128K tokens. In a preliminary A/B/A comparison, a prefill parallelism option raised 16K-token throughput from ~4,200 to ~5,100 tokens/s, overlapped at 4K, and ran out of GPU memory on cold 64K prompts, so I reverted it; per-request speed fell from ~140 to ~50 tokens/s as concurrency rose from 1 to 12. Small samples and synthetic input — personal lab work, not company production.
                     </p>
                     <div class="project-tech">
                         <span>SGLang</span>
@@ -456,7 +451,7 @@
                     <h3 class="project-title">Amazon-Shopbop Web Game</h3>
                     <p class="project-description">
                         Real-time AWS web game using React and Django, integrating Amazon's product API.
-                        Collaborated with a team of 6 to design and implement multiplayer functionality.
+                        Built back-end services in an eight-person Scrum team, with Shopbop (Amazon) engineers giving sprint feedback.
                     </p>
                     <div class="project-tech">
                         <span>React</span>
@@ -588,7 +583,7 @@
                     <span class="graduation">December 2022</span>
                 </div>
                 <div class="education-details">
-                    <p><i class="fas fa-book"></i> <strong>Relevant Coursework:</strong> Object Oriented Programming, Data Structures & Algorithms, Machine Organization, Database Management Systems, Machine Learning, Artificial Intelligence, Computer Vision</p>
+                    <p><i class="fas fa-book"></i> <strong>Relevant Coursework:</strong> Operating Systems (CS 537 — all seven projects with full marks), Object Oriented Programming, Data Structures & Algorithms, Machine Organization, Database Management Systems, Machine Learning, Artificial Intelligence, Computer Vision</p>
                 </div>
             </div>
         </div>
